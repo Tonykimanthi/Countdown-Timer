@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    border: 1px solid;
+    border-radius: 14px;
+    padding: 10px;
+}
+#date-picker{
+    max-width: 50%;
+    height: 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+#submit-btn{
+    width: 40%;
+    height: 30px;
+    font-size: 1.2em;
+}
+
+.time-container{
+    display: flex;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.time{
+    font-size: 1em;
+    padding: 0px 15px;
+    text-align: center;
+}
+.time h2{
+    font-weight: 400;
+    font-size: 2.5em;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
