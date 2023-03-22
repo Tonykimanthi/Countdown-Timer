@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Ubuntu&display=swap');
+
+h1{
+    font-size: 2.5em;
+    font-family: "Inconsolata", sans-serif;
+}
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+
+    /* Image by Michael Heck from Pixabay  */
 }
 .main-container{
     display: flex;
@@ -12,6 +23,7 @@ body{
     border: 1px solid;
     border-radius: 10px;
     margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.765);
 }
 .header-section{
     display: flex;
@@ -21,6 +33,7 @@ body{
     margin-top: 25px;
     border: 1px solid;
     border-radius: 14px;
+    width: 225px;
     padding: 10px;
 }
 #date-picker{
@@ -28,12 +41,23 @@ body{
     height: 30px;
     font-size: 1.2em;
     border-radius: 5px;
+    background-color: aquamarine;
 }
 #submit-btn{
     width: 40%;
-    height: 30px;
-    font-size: 1.2em;
+    height: 35px;
+    font-size: 1.1em;
+    color: white;
+    border-radius: 10px;
+    background: rgb(20, 169, 79);
 }
+#submit-btn:hover{
+    background: rgb(14, 132, 61);
+}
+#submit-btn:active{
+    border: 1px solid white;
+}
+
 
 .time-container{
     display: flex;
@@ -43,12 +67,17 @@ body{
 }
 .time{
     font-size: 1em;
+    font-family: "Inconsolata", sans-serif;
     padding: 0px 15px;
     text-align: center;
+    color: greenyellow;
 }
 .time h2{
     font-weight: 400;
     font-size: 2.5em;
     margin-top: 10px;
     margin-bottom: -10px;
+}
+.time p{
+    color: white;
 }
