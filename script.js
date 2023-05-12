@@ -38,7 +38,7 @@ function currentDateTime(){
         }
     }
 
-    if(myDays > 0){
+    if(mySecs > 0){
         days.innerHTML = lessThan10(myDays);
         hours.innerHTML = lessThan10(myHours);
         mins.innerHTML = lessThan10(myMins);
